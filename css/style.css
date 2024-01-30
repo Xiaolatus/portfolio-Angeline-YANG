@@ -205,3 +205,20 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
+
+@media screen and (max-width:750px){
+    .comp {
+        flex-direction: column;
+    }
+   
+    #l1, #l2 {
+        width: 100%;
+        flex-direction: column;
+    
+    }
+  
+    .p1 {
+        width: auto;
+        margin-top: 50px;
+    }
+  }
