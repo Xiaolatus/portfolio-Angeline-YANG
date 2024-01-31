@@ -75,6 +75,9 @@ button:hover {
 span {
     color: #EBB752;
     font-weight: bold;
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
 .content {
