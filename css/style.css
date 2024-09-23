@@ -162,11 +162,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
     margin-bottom: 20px;
 }
-
-
 
 #projets img {
     width: 100%;
@@ -185,7 +182,7 @@ footer {
 }
 
 .p1 {
-    flex-basis: 30%; /* Définit la taille des blocs à 30% pour garder une structure en row */
+    width: 30%;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
