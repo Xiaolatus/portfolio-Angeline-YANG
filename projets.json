@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Création d'un site sur les films du Studio Ghibli",
+        "description": "HTML - CSS - JS - JSON - UI Design",
+        "details": "Pour ce projet, il fallait créer un site web en récupérant les données d'un fichier JSON en JavaScript avec fetch.",
+        "img": "img/projet5.png",
+        "links": [
+            {
+                "text": "Voir le site",
+                "url": "https://xiaolatus.github.io/ghibli/ghibli.html"
+            },
+            {
+                "text": "Voir le fichier JSON",
+                "url": "https://ghibli.rest/films"
+            }
+        ]
+    },
+    {
+        "title": "Création d’un jeu vidéo en multijoueur avec Node.js et MongoDB",
+        "description": "Unity (C#) - Node.js - Figma",
+        "details": "Pour ce projet nous étions 4 étudiants...",
+        "img": "img/projet6.png",
+        "links": [
+            {
+                "text": "Voir le projet",
+                "url": "https://drive.google.com/drive/folders/1zdOEwdp0cy80y16potiwBknyiC0ixwgi"
+            },
+            {
+                "text": "Voir la démo",
+                "url": "https://drive.google.com/drive/folders/1KFrulWmDZqQXZ5QrWMHVo4NIYH8RubEA"
+            }
+        ]
+    }
+]
