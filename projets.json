@@ -18,7 +18,7 @@
     {
         "title": "Création d’un jeu vidéo en multijoueur avec Node.js et MongoDB",
         "description": "Unity (C#) - Node.js - Figma",
-        "details": "Pour ce projet nous étions 4 étudiants...",
+        "details": "Pour ce projet nous étions 4 étudiants en développement web, nous avons créé un jeu multijoueur inspiré de Pico Park en gardant l'aspect collaboratif et amusant.",
         "img": "img/projet6.png",
         "links": [
             {
@@ -28,6 +28,58 @@
             {
                 "text": "Voir la démo",
                 "url": "https://drive.google.com/drive/folders/1KFrulWmDZqQXZ5QrWMHVo4NIYH8RubEA"
+            }
+        ]
+    },
+    {
+        "title": "Refonte du site du théâtre du gouvernail",
+        "description": "HTML - CSS - JS - PHP - UI Design",
+        "details": "Pour ce projet, nous devions refaire entièrement le site du Théâtre du Gouvernail sans en changer la charte graphique. J'ai développé les pages Panier et Produit.",
+        "img": "img/projet1.png",
+        "links": [
+            {
+                "text": "Lien des maquettes",
+                "url": "https://www.figma.com/proto/elFizi0qoHNw1s1zK4IjPz/Groupe-3?type=design&node-id=88-11&t=hBE4YQEOsbkRVIH0-1&scaling=scale-down&page-id=2%3A2&starting-point-node-id=88%3A11&mode=design"
+            }
+        ]
+    },
+    {
+        "title": "Exercices de développement front",
+        "description": "HTML - CSS - JS - UI Design",
+        "details": "Un ensemble d'exercices de développement front-end avec des animations CSS, Canvas et manipulation du DOM en JavaScript.",
+        "img": "img/projet4.png",
+        "links": [
+            {
+                "text": "Voir le site",
+                "url": "https://xiaolatus.github.io/dev-front/index.html"
+            }
+        ]
+    },
+    {
+        "title": "Création d'une carte intéractive de France",
+        "description": "HTML - CSS - JS - UI Design",
+        "details": "Une carte intéractive de France regroupant les résultats du brevet 2022.",
+        "img": "img/projet3.png",
+        "links": [
+            {
+                "text": "Voir le projet",
+                "url": "http://projets.iut-bobigny.univ-paris13.fr/~yanga/SAE303/"
+            }
+        ]
+    },
+    {
+        "title": "Création d'un site pour une ONG fictive",
+        "description": "HTML - CSS - JS - UI Design",
+        "details": "Nous devions créer une ONG fictive. J'ai développé les pages Actions, Actualités et Contact.",
+        "img": "img/projet2.png",
+        "links": [
+            {
+                "text": "Voir le site",
+                "url": "https://xiaolatus.github.io/fournir-la-jeunesse/accueil"
+            },
+            {
+                "text": "Lien des maquettes",
+                "url": "https://www.figma.com/proto/fJQYP5Q3ZqS4Ecak4SibaG/ONG---Fournir-la-Jeunesse?node-id=47-200&starting-point-node-id=47%3A200&mode=design&t=wyXZNUMaEfr6XJHf-1"
             }
         ]
     }
