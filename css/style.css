@@ -157,7 +157,7 @@ footer {
     margin-top: 100px;
 }
 
-#l1, #l2, #l3 {
+#projets-container {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
