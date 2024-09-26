@@ -7,11 +7,7 @@
         "links": [
             {
                 "text": "Voir le site",
-                "url": "https://xiaolatus.github.io/ghibli/ghibli.html"
-            },
-            {
-                "text": "Voir le fichier JSON",
-                "url": "https://ghibli.rest/films"
+                "url": "https://eanimagine.org"
             }
         ]
     },
