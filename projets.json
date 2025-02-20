@@ -1,8 +1,8 @@
 [
     {
         "title": "Développement du site web Pétrarque Digital",
-        "description": "HTML - CSS - JavaScript - WordPress (PHP) - UI/UX Design",
-        "details": "Lors de mon stage de deuxième année de mon BUT MMI chez Pétrarque Digital, j'ai développé le site web de l'entreprise en utilisant WordPress, 'ai réalisé des maquettes pour le site et des éléments graphiques. J'ai également développé des jeux en JavaScript pour le site.",
+        "description": "HTML - CSS - JavaScript - WordPress (PHP) - Figma",
+        "details": "Lors de mon stage de deuxième année de mon BUT MMI chez Pétrarque, j'ai travaillé sur le site web du département digital. J'ai réalisé des maquettes sur Figma et développé le site sur WordPress. J'ai également développé des jeux en JavaScript pour le site.",
         "img": "img/stage.png",
         "links": [
             {
@@ -13,8 +13,8 @@
     },
     {
         "title": "Création d'un site sur les films du Studio Ghibli",
-        "description": "HTML - CSS - JS - JSON - UI Design",
-        "details": "Pour ce projet, il fallait créer un site web en récupérant les données d'un fichier JSON en JavaScript avec fetch.",
+        "description": "HTML - CSS - JavaScript - JSON",
+        "details": "Dans le cadre d'un projet de 4 heures, j'ai développé un site web dynamique utilisant JavaScript pour récupérer et afficher des données à partir d'un fichier JSON.",
         "img": "img/projet5.png",
         "links": [
             {
@@ -28,9 +28,9 @@
         ]
     },
     {
-        "title": "Création d’un jeu vidéo en multijoueur avec Node.js et MongoDB",
-        "description": "Unity (C#) - Node.js - Figma",
-        "details": "Pour ce projet nous étions 4 étudiants en développement web, nous avons créé un jeu multijoueur inspiré de Pico Park en gardant l'aspect collaboratif et amusant.",
+        "title": "Cubic Chaos - Création d’un jeu vidéo en multijoueur",
+        "description": "Unity (C#) - Node.js - MongoDB - Figma",
+        "details": "Cubic Chaos est un jeu multijoueur inspiré de Pico Park notamment pour son aspect collaboratif et amusant. Ce projet a été développé en groupe de 4 étudiants en développement web.",
         "img": "img/projet6.png",
         "links": [
             {
@@ -45,7 +45,7 @@
     },
     {
         "title": "Refonte du site du théâtre du gouvernail",
-        "description": "HTML - CSS - JS - PHP - UI Design",
+        "description": "HTML - CSS - JS - PHP - Figma",
         "details": "Pour ce projet, nous devions refaire entièrement le site du Théâtre du Gouvernail sans en changer la charte graphique. J'ai développé les pages Panier et Produit.",
         "img": "img/projet1.png",
         "links": [
@@ -56,9 +56,9 @@
         ]
     },
     {
-        "title": "Exercices de développement front",
-        "description": "HTML - CSS - JS - UI Design",
-        "details": "Un ensemble d'exercices de développement front-end avec des animations CSS, Canvas et manipulation du DOM en JavaScript.",
+        "title": "Exercices en Développement Front-End : CSS, Canvas et DOM",
+        "description": "HTML - CSS - JavaScript",
+        "details": "Ensemble d'exercices de développement front-end avec des animations CSS, Canvas et manipulation du DOM en JavaScript. Les exercices couvriront plusieurs aspects essentiels, tels que la création d'animations  avec CSS, l'utilisation du Canvas pour des graphismes, et la manipulation du DOM à l'aide de JavaScript pour créer des interfaces interactives.",
         "img": "img/projet4.png",
         "links": [
             {
@@ -69,8 +69,8 @@
     },
     {
         "title": "Création d'une carte intéractive de France",
-        "description": "HTML - CSS - JS - UI Design",
-        "details": "Une carte intéractive de France regroupant les résultats du brevet 2022.",
+        "description": "HTML - CSS - JavaScript - D3.js",
+        "details": "Dans le cadre d'un projet, j'ai développé une carte interactive affichant les résultats du Brevet des collèges 2022 par région et département.",
         "img": "img/projet3.png",
         "links": [
             {
@@ -81,8 +81,8 @@
     },
     {
         "title": "Création d'un site pour une ONG fictive",
-        "description": "HTML - CSS - JS - UI Design",
-        "details": "Nous devions créer une ONG fictive. J'ai développé les pages Actions, Actualités et Contact.",
+        "description": "HTML - CSS - JS - Figma",
+        "details": "Dans le cadre d'un projet de création d'une ONG fictive, j'ai développé les pages Actions, Actualités et Contact. La page Actions présente les initiatives de l'ONG, la page Actualités informe sur les événements récents, et la page Contact facilite la communication avec l'organisation.",
         "img": "img/projet2.png",
         "links": [
             {
