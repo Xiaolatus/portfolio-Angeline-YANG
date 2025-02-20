@@ -2,20 +2,17 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
+    background-color: #242424;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header{
     width: 100%;
     margin:0;
-    background-color: #414352;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background-color: #434244;
     position: fixed;
     top:0;
-    z-index: 1000;
-    
+    z-index: 1000;  
 }
 
 #navi ul{
@@ -26,7 +23,6 @@ header{
     width:70%;
     margin-right: 2%;
     margin-left: 20px;
-    margin-top: 40px;
 }
 
 #navi li{
@@ -48,25 +44,27 @@ header{
 }
 
 header img{
-    height: 100px;
+    height: 70px;
     transition: 0.4s;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
+    padding-bottom: 20px;
     
 }
 
 #navi li a:hover{
-    color: #F6AE46;
+    color: #F6AF47;
     font-weight: bolder;
 }
 
+/* ---------------------------------------------------------------- ACCUEIL ------------------------------------------------ */
+
 button {
     color: black;
-    background-color: #F6AE46;
+    background-color: #F6AF47;
     height: 40px;
     width: 200px;
     cursor: pointer;
-    border-radius: 50px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -76,7 +74,7 @@ button:hover {
 }
 
 span {
-    color: #EBB752;
+    color: #F6AF47;
     font-weight: bold;
     transform-origin: 50% 100%;
     display: inline-block;
@@ -97,56 +95,99 @@ h1 {
 }
 
 #accueil {
-    margin-top: 250px;
+    margin-top: 170px;
     display: flex;
     flex-direction: row;
-    background-color: #414352;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background-color: #434244;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    clip-path: 
+    polygon(
+      0% 40px,                 /* top left */
+      40px 0%,                 /* top left */
+      calc(100% - 40px) 0%,    /* top right */
+      100% 40px,               /* top right */
+      100% calc(100% - 40px),  /* bottom right */
+      calc(100% - 40px) 100%,  /* bottom right */
+      40px 100%,               /* bottom left */
+      0 calc(100% - 40px)      /* bottom left */
+    );
 }
 
-.content {
+.textContent {
     padding: 20px;
     color:#fff;
 }
 
-#contact img {
-    height: 50px;
-}
-
-#contact a {
-    text-decoration: none;
-    color: #414352;
-    font-weight: bold;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-    color: #2F3670;
-}
-
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-    padding: 20px;
-    color:#fff;
-    background-color: #414352;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-}
+/* ---------------------------------------------------------------- COMPETENCES ------------------------------------------------ */
 
 #competences {
     padding: 20px;
-    color: #000;
-    background-color: #F6AE46;
-    margin-top: 100px;
+    color: #242424;
+    background-color: #F6AF47;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
+
+#competences div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.compbloc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #434244;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 50px 50px 50px;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    clip-path: 
+    polygon(
+      0% 40px,                 /* top left */
+      40px 0%,                 /* top left */
+      calc(100% - 40px) 0%,    /* top right */
+      100% 40px,               /* top right */
+      100% calc(100% - 40px),  /* bottom right */
+      calc(100% - 40px) 100%,  /* bottom right */
+      40px 100%,               /* bottom left */
+      0 calc(100% - 40px)      /* bottom left */
+    );
+}
+
+.compimg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.compimg img {
+    max-height: 70px;
+    width: calc(25% - 20px); /* Chaque image prend environ 1/3 de la largeur */
+    margin: 10px;
+    margin-top: 30px;
+    object-fit: contain;
+}
+
+/* ---------------------------------------------------------------- PROJETS ------------------------------------------------ */
+
 
 #projets {
     display: flex;
@@ -218,17 +259,78 @@ footer {
     justify-content: center;
 }
 
+/* ---------------------------------------------------------------- GALERIE ------------------------------------------------ */
+/* a venir */
+
+/* ---------------------------------------------------------------- CONTACT ------------------------------------------------ */
+
 #contact {
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #434244;
+    justify-content: center;
+    padding: 10px 50px 50px 50px;
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+    clip-path: 
+    polygon(
+      0% 40px,                 /* top left */
+      40px 0%,                 /* top left */
+      calc(100% - 40px) 0%,    /* top right */
+      100% 40px,               /* top right */
+      100% calc(100% - 40px),  /* bottom right */
+      calc(100% - 40px) 100%,  /* bottom right */
+      40px 100%,               /* bottom left */
+      0 calc(100% - 40px)      /* bottom left */
+    );
+}
+
+#contact h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact img {
+    height: 40px;
     margin-right: 20px;
-    margin-bottom: 50px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------- FOOTER ------------------------------------------------ */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
     padding: 20px;
-    color:#000;
-    background-color: #F6AE46;
-    border-radius: 10px;
+    color:#fff;
+    background-color: #434244;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 @media screen and (max-width:750px){
     .comp {
